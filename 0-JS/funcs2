@@ -1,0 +1,8 @@
+
+
+var arr = ["Brendan", "Eich"];
+arr.doSomething = function() {
+  return "Hello" + this[0];
+}
+
+console.log(arr[2]);
