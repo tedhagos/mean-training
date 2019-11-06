@@ -6,8 +6,8 @@ var bodyparser = require('body-parser');
 var mongoose = require('mongoose');
 
 var Schema = mongoose.Schema;
-mongoose.connect("mongodb://localhost/cm");
 
+mongoose.connect("mongodb://localhost/cm");
 
 var candidateSchema = new Schema({
   lastname: { type: String, required: true },
